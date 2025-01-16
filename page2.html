@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kawasaki Ninja H2</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            background-image: url('C:/Users/Kedar/Documents/bgpage2.jpg.jpg'); 
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 50px auto;
+            width: 60%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .box {
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 1s ease-in-out forwards;
+            animation-delay: var(--delay);
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        h2 {
+            color: #ff5733;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .platform {
+            font-weight: bold;
+        }
+        .back-button, .next-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .back-button:hover, .next-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" style="--delay: 0s;">
+            <h2>Overview of Kawasaki Ninja H2</h2>
+            <p>The Kawasaki Ninja H2 is a supercharged sport bike known for its powerful engine and cutting-edge technology. It is part of the Ninja family, which includes some of the fastest and most advanced motorcycles in the world.</p>
+        </div>
+        
+        <div class="box" style="--delay: 2s;">
+            <h2>Technical Specifications</h2>
+            <ul>
+                <li><span class="platform">Engine:</span> 998cc supercharged inline-4</li>
+                <li><span class="platform">Power:</span> 310 PS @ 14,000 rpm</li>
+                <li><span class="platform">Torque:</span> 165 Nm @ 12,500 rpm</li>
+                <li><span class="platform">Top Speed:</span> 400 km/h</li>
+                <li><span class="platform">Fuel Capacity:</span> 17 liters</li>
+                <li><span class="platform">Weight:</span> 240 kg (wet)</li>
+                <li><span class="platform">Price:</span> Starting from ₹79.90 lakh</li>
+            </ul>
+        </div>
+        
+        <div class="box" style="--delay: 4s;">
+            <h2>Features and Technology</h2>
+            <p>The Kawasaki Ninja H2 is equipped with advanced features and technology, including:</p>
+            <ul>
+                <li><span class="platform">Supercharged Engine:</span> Delivers incredible power and acceleration.</li>
+                <li><span class="platform">Traction Control:</span> Ensures optimal grip and stability.</li>
+                <li><span class="platform">Quick Shifter:</span> Allows seamless gear shifts without using the clutch.</li>
+                <li><span class="platform">Brembo Brakes:</span> Provides superior stopping power and control.</li>
+                <li><span class="platform">Full TFT Display:</span> Offers a clear and intuitive interface for all rider information.</li>
+            </ul>
+        </div>
+
+        <button class="back-button" onclick="window.location.href='file:///C:/Users/Kedar/Documents/kk.html'">Back to Welcome Page</button>
+        <button class="next-button" onclick="window.location.href='file:///C:/Users/Kedar/Documents/page3.html'">Next Page</button>
+    </div>
+</body>
+</html>

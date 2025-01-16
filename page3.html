@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bike Royal Enfield</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            background-image: url('C:/Users/Kedar/Documents/bgpage3.jpg'); 
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+            margin: 50px auto;
+            width: 70%;
+        }
+        .box {
+            opacity: 0;
+            transform: scale(0.8);
+            animation: fadeInZoom 1.5s ease-in-out forwards;
+            animation-delay: var(--delay);
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            border: 2px solid #ff5733;
+            border-radius: 20px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(5px);
+        }
+        @keyframes fadeInZoom {
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        h2 {
+            color: #ff5733;
+            font-size: 24px;
+        }
+        p, ul {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: circle;
+            padding-left: 40px;
+            text-align: left;
+            color: white;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .platform {
+            font-weight: bold;
+        }
+        .previous-button, .home-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 18px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            margin: 10px;
+        }
+        .previous-button:hover, .home-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" style="--delay: 0s;">
+            <h2>History of Royal Enfield</h2>
+            <p>Royal Enfield, the oldest motorcycle brand in continuous production, started its journey in 1901. Known for its distinctive look and rich history, it has a loyal fan base worldwide.</p>
+        </div>
+
+        <div class="box" style="--delay: 1.5s;">
+            <h2>Popular Models</h2>
+            <p>Royal Enfield has produced numerous iconic models over the years. Some of the most popular ones include:</p>
+            <ul>
+                <li><span class="platform">Bullet:</span> An enduring classic, often considered the backbone of Royal Enfield's lineup.</li>
+                <li><span class="platform">Classic:</span> Known for its vintage styling and modern engineering.</li>
+                <li><span class="platform">Interceptor:</span> A versatile and powerful bike, perfect for long rides.</li>
+            </ul>
+        </div>
+
+        <div class="box" style="--delay: 3s;">
+            <h2>Global Community</h2>
+            <p>Royal Enfield enthusiasts form a vibrant community. They organize rides, meetups, and events to celebrate their shared passion for these motorcycles.</p>
+            <ul>
+                <li><span class="platform">Annual Rides:</span> Events like the Himalayan Odyssey and Tour of Bhutan attract riders from around the world.</li>
+                <li><span class="platform">Local Clubs:</span> Numerous clubs and groups exist, fostering camaraderie among riders.</li>
+                <li><span class="platform">Online Forums:</span> A wealth of online resources and forums where enthusiasts share tips, stories, and experiences.</li>
+            </ul>
+        </div>
+
+        <div class="box" style="--delay: 4.5s;">
+            <h2>Technological Advancements</h2>
+            <p>Royal Enfield continues to innovate, blending classic design with modern technology. Recent advancements include:</p>
+            <ul>
+                <li><span class="platform">New Engine Designs:</span> The introduction of twin-cylinder engines for better performance.</li>
+                <li><span class="platform">Enhanced Safety Features:</span> Anti-lock braking systems (ABS) and improved suspension.</li>
+                <li><span class="platform">Customization Options:</span> A wide range of accessories and custom parts for personalization.</li>
+            </ul>
+        </div>
+
+        <button class="previous-button" onclick="window.location.href='file:///C:/Users/Kedar/Documents/page2.html'">Previous Page</button>
+        <button class="home-button" onclick="window.location.href='file:///C:/Users/Kedar/Documents/kk.html'">Return to Home Page</button>
+    </div>
+</body>
+</html>
